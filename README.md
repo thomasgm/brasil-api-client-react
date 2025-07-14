@@ -20,27 +20,6 @@ brasil-api-client/
 - **backend/**: Contém todo o código PHP responsável por consumir a BrasilAPI, além dos testes automatizados.
 - **frontend/**: Destinada a exemplos de integração, interface web ou qualquer recurso relacionado ao uso do cliente no frontend.
 
-## Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/brasil-api-client.git
-   ```
-
-2. Instale as dependências (se houver):
-   ```bash
-   composer install
-   ```
-
-3. Utilize o cliente em seu projeto PHP:
-   ```php
-   require 'src/BrasilApiClient.php';
-
-   $client = new BrasilApiClient();
-   $cepInfo = $client->getCep('01001-000');
-   print_r($cepInfo);
-   ```
-
 ## Exemplo de Fluxo
 
 Abaixo está uma imagem que ilustra o fluxo de funcionamento do cliente:
